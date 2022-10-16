@@ -1,0 +1,342 @@
+body{
+   max-width: 1230px;
+   margin: 0 auto;
+   font-family: 'Lato';
+   color: #424551;
+}
+
+.article__title{
+   margin-top: 50px;
+   font-weight: 900;
+   font-size: 46px;
+   color: #1E212C;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin-bottom: 92px;
+}
+
+.article__img{
+   border-radius: 4px;
+   margin-bottom: 60px;
+text-align: center;
+}
+
+.article__main-text{
+   color: #1E212C;
+   font-weight: 700;
+   line-height: 150%;
+   font-size: 20px;
+   margin-bottom: 24px;
+}
+
+.article__text{
+   font-size: 16px;
+   margin-bottom: 48px;
+   line-height: 160%;
+}
+
+.par-1{
+   padding-bottom: 44px;
+}
+
+.article__quoute{
+   color: #1E212C;
+   font-weight: 700;
+   line-height: 150% ;
+   font-size: 20px;
+   width: 752px;
+   padding-left: 50px;
+   margin-bottom: 48px;
+   background: url(../img/icons/rectangle-267-double.png);
+   background-position: 0 0;
+   background-repeat: no-repeat;
+}
+
+.text-above-list{
+   margin-bottom: 24px;
+}
+
+.article__list{
+   line-height: 26.5px;
+   width: 600px;
+   margin-bottom: 24px;
+}
+
+.article__list li{
+   background: url(../img/icons/galka.svg);
+   background-position: 0px 6px;
+   background-repeat: no-repeat;
+   padding-left: 26px;
+}
+
+.last{
+   margin-bottom: 150px;
+}
+
+/*============================================*/
+
+.title-introducing{
+   margin-left: 840px;
+}
+
+.introducing__image{
+   float: left;
+}
+
+.introducing__subtitle1{
+   color: #1E212C;
+   font-size: 16px;   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin-bottom: 8px;
+}
+
+.introducing__subtitle2{
+   color: #1E212C;
+   font-weight: 900;
+   font-size: 46px;
+   margin-bottom: 40px;
+}
+
+.introducing__list{
+   margin-left: 810px;
+   line-height: 160%;
+   padding-left: 32px;
+   width: 410px;
+   margin-bottom: 48px;
+}
+
+.introducing__list li{
+   background: url(../img/icons/galka.svg);
+   background-position: 0px 6px;
+   background-repeat: no-repeat;
+   padding-left: 26px;
+}
+
+.introducing__button{
+   color: white;
+   font-weight: 700;
+   line-height: 44px;
+   text-align: center;
+   align-items: center;
+   font-size: 14px;
+   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+   border-radius: 4px;
+   width: 161px;
+   gap: 10px;
+   margin-left: 845px;
+   cursor: pointer;
+   margin-bottom: 222px;
+}
+
+.button-pressed{
+   color: #F75E05;
+   font-weight: 700;
+   line-height: 44px;
+   text-align: center;
+   align-items: center;
+   font-size: 14px;
+   background: white;
+   border: solid;
+   border-color: #F75E05;
+   border-radius: 4px;
+   width: 161px;
+   gap: 10px;
+   margin-left: 845px;
+   cursor: pointer;
+   margin-top: -95px;
+   margin-bottom: 60px;
+}
+
+.tutors__box1{
+   max-width: 600px;
+   max-height: 214px;
+   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   margin-bottom: 100px;
+}
+
+.tutors__lesson-type{
+   color: white;
+   text-align: center;
+   background: #03CEA4;
+   width: 89px;
+   height: 23px;
+   border-radius: 4px;
+   gap: 10px;
+   position: relative;
+   bottom: 175px; left: 240px;
+}
+
+.tutors__description{
+   font-weight: 900;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+   width: 322px;
+   position: relative;
+   bottom: 155px; left: 240px;
+}
+
+.tutors__cost{
+   font-weight: 700;
+   color: #FF4242;
+   font-size: 18px;
+   position: relative;
+   bottom: 125px; left: 240px;
+}
+
+.tutors__by-who{
+   font-size: 18px;
+   position: relative;
+   bottom: 145px; left: 287px;
+}
+
+.tutors__box2{
+   max-width: 600px;
+   max-height: 214px;
+   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   margin-top: -316px;
+   margin-left: 650px;
+   margin-bottom: 50px;
+}
+
+.type2{
+   background: #5A87FC;
+   width: 99px;
+}
+
+.tutors__box3{
+   max-width: 600px;
+   max-height: 214px;
+   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   margin-bottom: 100px;
+}
+
+.type3{
+   background: #F89828;
+   width: 119px;
+}
+
+.tutors__box4{
+   max-width: 600px;
+   max-height: 214px;
+   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   margin-top: -316px;
+   margin-left: 650px;
+   margin-bottom: 50px;
+}
+
+.tutors__box5{
+   max-width: 600px;
+   max-height: 214px;
+   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   margin-bottom: 100px;
+}
+
+.type5{
+   background: #F89828;
+   width: 119px;
+}
+
+.tutors__box6{
+   max-width: 600px;
+   max-height: 214px;
+   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   margin-top: -316px;
+   margin-left: 650px;
+   margin-bottom: 181px;
+}
+
+.type6{
+   background: #F52F6E;
+   width: 79px;
+}
+
+.last-part__title{
+   color: #1E212C;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 16px;
+   text-align: center;
+   letter-spacing: 1px;
+   margin-bottom: 6px;
+}
+
+.last-part__subtitle{
+   color: #1E212C;
+   font-weight: 900;
+   font-size: 46px;
+   text-align: center;
+   margin-bottom: 70px;
+}
+
+.last-part__menu{
+   margin-bottom: 70px;
+}
+
+.last-part__menu-exptutors{
+   display: inline-block;
+   font-weight: 700;
+   font-size: 16px;
+   color: #F75E05;
+   border: solid;
+   border-color: #F75E05;
+   padding: 10px 60px;
+   border-radius: 4px;
+   background: url(../img/icons/star.svg);
+   background-position: 35px 11px;
+   background-repeat: no-repeat;
+   margin-right: 20px;
+   margin-bottom: 182px;
+}
+
+.last-part__menu-grey{
+   cursor: pointer;
+   color: #9A9CA5;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 160%;
+   border: solid;
+   border-color: #ffffff;
+   padding: 10px 60px;
+   background: url(../img/icons/shape.svg);
+   background-position: 35px 11px;
+   background-repeat: no-repeat;
+   padding-left: 60px;
+   margin-left: 20px;
+}
+
+.library{
+   background: url(../img/icons/library.svg);
+   background-position: 35px 11px;
+   background-repeat: no-repeat;
+}
+
+.community{
+   background: url(../img/icons/comunity.svg);
+   background-position: 35px 11px;
+   background-repeat: no-repeat;
+}
+
+.last-part__title2{
+   font-weight: 700;
+   font-size: 32px;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+
+.last-part__subtitle2{
+   width: 495px;
+   line-height: 160%;
+}
+
+.last-part__img{
+   float: right;
+   margin-top: -300px;
+}
